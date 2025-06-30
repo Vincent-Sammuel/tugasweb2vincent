@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #1e90ff;
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+form {
+    margin-top: 15px;
+}
+
+input[type="text"], input[type="number"], select {
+    padding: 8px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-right: 5px;
+}
+
+.btn-biru {
+    background-color: #007bff;
+}
+
+.btn-biru:hover {
+    background-color: #0056b3;
+}
+
+.btn-hijau {
+    background-color: #28a745;
+}
+
+.btn-hijau:hover {
+    background-color: #218838;
+}
+
+.btn-merah {
+    background-color: #dc3545;
+}
+
+.btn-merah:hover {
+    background-color: #c82333;
+}
+
+.tombol-container {
+    margin-bottom: 20px;
+}
+
+.tombol-kanan {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
